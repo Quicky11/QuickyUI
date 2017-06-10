@@ -1,0 +1,37 @@
+<div class="md-inline-form">
+	<div style="width:90%;padding:15px 0px;">
+		<div style="width: 45%;float: left"><label>Quicky PIN-Code</label></div>
+		<div class="pincode-input">
+			<input type="password" maxlength="1" ng-model="pw1"></input>
+			<input type="password" maxlength="1" ng-model="pw2"></input>
+			<input type="password" maxlength="1" ng-model="pw3"></input>
+			<input type="password" maxlength="1" ng-model="pw4"></input>
+			<input type="password" maxlength="1" ng-model="pw5"></input>
+		</div>
+	</div>
+	
+	<div style="width:90%;padding:15px 0px;">
+		<div style="width: 45%;float: left"><label>Confirm Quicky PIN-Code</label></div>
+		<div class="pincode-input">
+			<input type="password" maxlength="1" ng-model="confpw1"></input>
+			<input type="password" maxlength="1" ng-model="confpw2"></input>
+			<input type="password" maxlength="1" ng-model="confpw3"></input>
+			<input type="password" maxlength="1" ng-model="confpw4"></input>
+			<input type="password" maxlength="1" ng-model="confpw5"></input>
+		</div>
+	</div>
+	<div style="width:90%;padding:15px 0px;">
+		<div style="width: 45%;float: left;height: 40px;line-height: 40px">Ask my Quicky PIN-Code</div>
+		<div>
+			<md-radio-group ng-model="data.pinRequiredSetting" style="width: 100%">
+				<md-radio-button value="above30" ng-style-="{display:inline}">Only Above &euro;30</md-radio-button>
+				<md-radio-button value="always">Always</md-radio-button>
+			</md-radio-group>
+		</div>
+	</div>
+	
+	
+</div>
+<div class="bottom-button-div">
+	<button class="quicky-button" ng-click="submit()">Submit</button>
+</div>

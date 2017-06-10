@@ -1,0 +1,65 @@
+body{
+	background-color: #eee;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	
+}
+div.page-wrapper{
+	margin: 0 auto;
+	position: relative;
+	width: 100%;
+}
+div.logo-wrapper{
+	margin: 0 auto;
+	width:80%;
+	text-align: center;
+}
+div.app-content-wrapper{
+	background-color: #fff;
+	width:40%;
+	padding:25px 20px;
+	height: 300px;
+	position: relative;
+}
+div.app-content-wrapper>div{
+	width: 90%;
+	background-color: #fff;
+}
+div.app-content-wrapper{
+	text-align: left;
+	margin: 0 auto;
+}
+,div.app-content-wrapper div{
+	background-color: inherit;
+}
+.quicky-button{
+	background-color: #f79646;
+	border: 0px;
+	padding:10px 15px;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+	color: #fff;
+	font-size: 120%;
+}
+div.pincode-input-container{
+	width: 45%;
+	float:left;
+}
+div.pincode-input>input{
+	width:30px;
+	height: 30px;
+	text-align: center;
+}
+div.select-button{
+	width: 50%;
+	float: left;
+	border:solid #dacfcf;
+	border-width: 1px;
+}
+div.bottom-button-div{
+	text-align: center;
+	width:90%;
+	position:absolute;
+	bottom: 40px;
+}
