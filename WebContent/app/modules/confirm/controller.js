@@ -6,7 +6,7 @@ subsapp.controller('pincodeCtr',[
 	'$location',
 	function($scope,$routeParams,$location){
 
-		$scope.submit = function(){
+		$scope.subscribe = function(){
 			$location.path('/confirm');
 		};
 

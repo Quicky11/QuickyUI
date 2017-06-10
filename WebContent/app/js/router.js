@@ -18,5 +18,10 @@ subsapp.config(['$routeProvider',function($routeProvider){
 		controller:'pincodeCtr',
 		title:'pincode'
 	});
+	$routeProvider.when('/confirm',{
+		templateUrl:'modules/confirm/view.html',
+		controller:'confirmCtr',
+		title:'confirm'
+	});
 
 }]);

@@ -1,7 +1,13 @@
 <div class="md-inline-form">
+	<div style="font-style: oblique;font-size: 14px">Your Quicky Plug-in has been activated! Now choose your Quicky PIN-code
+	<md-icon md-svg-src="imgs/pin.svg" style="width: 24px; height: 24px;float: left;margin-top:-1%; padding-right: 10px">
+	
+	</md-icon>
+	</div> 
+
 	<div style="width:90%;padding:15px 0px;">
-		<div style="width: 45%;float: left"><label>Quicky PIN-Code</label></div>
-		<div class="pincode-input">
+		<div style="width: 45%;float: left;margin-top:2%"><label>Quicky PIN-Code:</label></div>
+		<div class="pincode-input">			
 			<input type="password" maxlength="1" ng-model="pw1"></input>
 			<input type="password" maxlength="1" ng-model="pw2"></input>
 			<input type="password" maxlength="1" ng-model="pw3"></input>
@@ -11,7 +17,7 @@
 	</div>
 	
 	<div style="width:90%;padding:15px 0px;">
-		<div style="width: 45%;float: left"><label>Confirm Quicky PIN-Code</label></div>
+		<div style="width: 45%;float: left;margin-top:2%"><label>Confirm Quicky PIN-Code:</label></div>
 		<div class="pincode-input">
 			<input type="password" maxlength="1" ng-model="confpw1"></input>
 			<input type="password" maxlength="1" ng-model="confpw2"></input>
@@ -21,10 +27,10 @@
 		</div>
 	</div>
 	<div style="width:90%;padding:15px 0px;">
-		<div style="width: 45%;float: left;height: 40px;line-height: 40px">Ask my Quicky PIN-Code</div>
+		<div style="width: 45%;float: left;height: 40px;line-height: 40px">Ask my Quicky PIN-Code:</div>
 		<div>
 			<md-radio-group ng-model="data.pinRequiredSetting" style="width: 100%">
-				<md-radio-button value="above30" ng-style-="{display:inline}">Only Above &euro;30</md-radio-button>
+				<md-radio-button value="above30" ng-style-="{display:inline}" style="margin-top:1%">Only Above &euro;30</md-radio-button>
 				<md-radio-button value="always">Always</md-radio-button>
 			</md-radio-group>
 		</div>
@@ -33,5 +39,5 @@
 	
 </div>
 <div class="bottom-button-div">
-	<button class="quicky-button" ng-click="submit()">Submit</button>
+	<button class="quicky-button" ng-click="submit()">INITIALISE MY QUICKY PLUG-IN</button>
 </div>

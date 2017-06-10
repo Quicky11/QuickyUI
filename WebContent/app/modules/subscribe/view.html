@@ -1,12 +1,26 @@
 <div class="md-inline-form">
-	<div style="width:90%">
-		<md-input-container style="width:100%">
-		<label>IBAN<sup>*</sup></label>
-		<input ng-model="user.title">
+	<div style="width:110%; text-align: center">
+		<md-input-container style="width:80%; text-align: left">
+
+		<md-icon md-svg-src="imgs/creditcard.svg" style="width: 24px; height: 24px"></md-icon>
+		<label>IBAN (e.g., NL 89 ABNA 0123456789)</label>
+		<input ng-model="user.title" required>
 		</md-input-container>
+
+		<md-button class="md-icon-button test-tooltip" aria-label="Refresh">
+        <md-tooltip md-direction="left">Please enter your IBAN that you want to connect to Quicky</md-tooltip>
+        <md-icon md-svg-src="imgs/info_icon2.svg" style="width: 24px; height: 24px"></md-icon>
+        </md-button>
+
 	</div>
+
+
+</div>
+
+
+
 	
 </div>
 <div class="bottom-button-div">
-	<button class="quicky-button" ng-click="subscribe()">Subscribe</md-button>
+	<button class="quicky-button" ng-click="subscribe()">SUBSCRIBE ME TO QUICKY</md-button>
 </div>
